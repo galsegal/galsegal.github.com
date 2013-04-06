@@ -10,5 +10,5 @@ tags: []
 This is the first test for my Jekyll based blog.
 
 I want to find out:
-> how to add images
-> more to come...
++ how to add images
++ more to come...
