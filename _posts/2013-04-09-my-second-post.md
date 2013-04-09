@@ -10,3 +10,8 @@ tags: []
 This is my second post.
 
 Very nice indeed!!!!
+
+some code:
+
+    var x=5;
+    return x;
