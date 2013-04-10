@@ -199,7 +199,7 @@ header {
 		display: inline-block;
 		font-size: 20px;
 		text-align: center;
-		padding: 5px;
+		padding: 5px 5px 0;
 		margin-right:0;
 	}
 	
@@ -207,7 +207,7 @@ header {
 		display: inline-block;
 		font-size: 16px;
 		font-weight: normal;
-		padding: 5px;
+		padding: 5px 5px 0;
 		text-align: center;
 	}
 	
