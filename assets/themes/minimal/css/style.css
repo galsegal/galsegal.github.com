@@ -195,6 +195,22 @@ header {
 		width: 100%;
 	}
 	
+	.minimal-main-title{
+		display: inline-block;
+		font-size: 20px;
+		text-align: center;
+		padding: 5px;
+		margin-right:0;
+	}
+	
+	.minimal-main-subtitle{
+		display: inline-block;
+		font-size: 16px;
+		font-weight: normal;
+		padding: 5px;
+		text-align: center;
+	}
+	
 	.minimal-main{
 		width: 100%;
 	}
