@@ -182,9 +182,11 @@ header {
 
 @media screen and (max-width: 480px) {
 	body {
-		background-color: #fcfcfc;
+		padding-top:0;
 	}
 	header {
+		position: static;
+		
 		background-color: #fff;
 		border-bottom: 3px solid #005F6B;
 		color: #777;
