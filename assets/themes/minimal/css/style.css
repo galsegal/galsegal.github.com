@@ -211,14 +211,18 @@ header {
 	}
 	
 	.minimal-main{
-		width: 100%;
+		width: 90%;
+		padding:0 5%;
 	}
 	
 	.minimal-sidebar {
-		width: 100%;
+		width: 90%;
+		padding:0 5%;
 	}
 	
 	.minimal-footer {
+		width: 90%;
+		padding:0 5%;
 		text-align: center;
 	}
 }
