@@ -186,7 +186,6 @@ header {
 	}
 	header {
 		position: static;
-		
 		background-color: #fff;
 		border-bottom: 3px solid #005F6B;
 		color: #777;
@@ -196,6 +195,7 @@ header {
 	}
 	
 	.minimal-main-title{
+		display: block;
 		font-size: 20px;
 		text-align: center;
 		padding: 5px 5px 0;
@@ -203,6 +203,7 @@ header {
 	}
 	
 	.minimal-main-subtitle{
+		display: block;
 		font-size: 16px;
 		font-weight: normal;
 		padding: 5px 5px 0;
