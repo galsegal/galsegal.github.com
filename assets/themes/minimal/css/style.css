@@ -196,7 +196,7 @@ header {
 	
 	.minimal-main-title{
 		display: block;
-		font-size: 20px;
+		font-size: 15px;
 		text-align: center;
 		padding: 5px 5px 0;
 		margin-right:0;
@@ -204,25 +204,25 @@ header {
 	
 	.minimal-main-subtitle{
 		display: block;
-		font-size: 16px;
+		font-size: 12px;
 		font-weight: normal;
 		padding: 5px 5px 0;
 		text-align: center;
 	}
 	
 	.minimal-main{
-		width: 90%;
-		padding:0 5%;
+		width: 96%;
+		padding:0 2%;
 	}
 	
 	.minimal-sidebar {
-		width: 90%;
-		padding:0 5%;
+		width: 96%;
+		padding:0 2%;
 	}
 	
 	.minimal-footer {
-		width: 90%;
-		padding:0 5%;
+		width: 96%;
+		padding:0 2%;
 		text-align: center;
 	}
 }
