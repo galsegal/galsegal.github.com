@@ -5,4 +5,6 @@ My name is Gal Segal and I and a web developer working at [eToro]. We are develo
 This blog runs on [Jekyll]. I created a new theme called "minimal"
 Fill free to use it.
 
+[eToro]: https://etoro.com
+[Openbook]: https://openbook.etoro.com
 [Jekyll]: http://jekyllbootstrap.com
