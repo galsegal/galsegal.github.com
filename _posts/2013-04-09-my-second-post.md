@@ -2,8 +2,8 @@
 layout: post
 title: "My Second Post"
 description: ""
-category: 
-tags: []
+category: "test"
+tags: [hello, world]
 ---
 {% include JB/setup %}
 
@@ -15,3 +15,8 @@ some code:
 
     var x=5;
     return x;
+		
+[![alt new text][2]][1]
+
+  [1]: http://google.com
+  [2]: /assets/images/factory.jpg

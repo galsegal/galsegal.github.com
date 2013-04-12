@@ -8,9 +8,10 @@
 body {font: 13px 'PT Sans', 'Helvetica', sans-serif;}
 body, select, input, textarea {color: #343838;}
 
-a {color: #07525C;}
-a:hover {color: #008C9E;}
+a {color: #078FA2;}
+a:hover {color: #152F33;}
 
+img{ border: 2px solid #078FA2; padding:2px; width: 100%;}
 /* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
 ::-moz-selection{background: #00a99d; color: #fff; text-shadow: none;}
 ::selection {background: #00a99d; color: #fff; text-shadow: none;} 
@@ -39,8 +40,8 @@ body {
 }
 header {
 	background-color: #fff;
-	border-bottom: 3px solid #005F6B;
-	color: #777;
+	border-bottom: 3px solid #078FA2;
+	color: #078FA2;
 	padding: 10px 20px;
 	position: fixed;
 	top: 0;
@@ -64,7 +65,6 @@ header {
 	
 		.minimal-main-title a{
 				color: #078FA2;
-
 				text-decoration: none;
 		}
 	
@@ -148,9 +148,25 @@ header {
 		text-align:right;
 	}
 
+	.tag_box li{
+		list-style-type:none;
+		float:left;
+	}
+	
+	.tag_box li a{
+		background-color: #f0f0f0;
+		border: 1px solid #dfdfdf;
+		border-radius: 3px;
+		display: inline-block;
+		margin: 3px;
+		padding: 2px 5px;
+		text-decoration: none;
+	}
 	.comments{
 		clear: both;
 	}
+	
+	
 
 .minimal-sidebar {
 	float: left;
@@ -183,7 +199,7 @@ header {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) 
-and (-webkit-min-device-pixel-ratio : 1.5),
+and (-webkit-min-device-pixel-ratio : 1.5)
 and (min-device-pixel-ratio : 1.5){
 	body {
 		padding-top:0;
