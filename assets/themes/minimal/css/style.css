@@ -11,7 +11,7 @@ body, select, input, textarea {color: #343838;}
 a {color: #078FA2;}
 a:hover {color: #152F33;}
 
-img{ border: 2px solid #078FA2; padding:2px; width: 100%;}
+img{ border: 1px solid #078FA2; padding:5px; width: 100%;}
 /* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
 ::-moz-selection{background: #00a99d; color: #fff; text-shadow: none;}
 ::selection {background: #00a99d; color: #fff; text-shadow: none;} 
@@ -126,6 +126,12 @@ header {
 		margin-bottom:10px;
 	}
 	
+	.content ul{
+		margin-bottom: 10px;
+		list-style-type:circle;
+		list-style-position: inside;
+	}
+	
 	.pagination{
 		margin-bottom:20px;
 	}
@@ -164,9 +170,7 @@ header {
 	}
 	.comments{
 		clear: both;
-	}
-	
-	
+	}	
 
 .minimal-sidebar {
 	float: left;
