@@ -11,9 +11,10 @@ I have a true passion coding. Creativity, innovation, challenge and the dynamic 
 
 I would like to use this blog as a place for sharing this passion.
 
-You can find me on [Twitter] or by [email]. 
+You can find me on [Twitter], [G+] or [email]. 
 
 [eToro]: https://etoro.com
 [Openbook]: https://openbook.etoro.com
 [Twitter]: https://twitter.com/galsegal
+[G+]: https://plus.google.com/u/0/103331582319810099054/posts
 [email]: mailto:gals@etoro.com

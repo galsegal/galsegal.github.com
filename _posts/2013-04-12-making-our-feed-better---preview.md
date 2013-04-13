@@ -3,7 +3,7 @@ layout: post
 title: "Making Our Feed Better (Preview)"
 description: "a series of posts about developing our new feed infrastructire"
 category: "Feed"
-tags: [Infrastructure, Preview]
+tags: [Infrastructure]
 ---
 {% include JB/setup %}
 Our feed is a major, if not the major component on [Openbook]. We use it to show users' trading activities, discussions and badges. It is the most engaging component and have a crucial role in our community. Over the years we added several features to the feed and got great feedback along with many feature requests and complaints.
