@@ -197,6 +197,14 @@ header {
 	text-align: center;
 }
 
+.bitcoin{
+	display:inline-block;
+	background-image:url(../images/bitcoin.jpeg);
+	width:50px;
+	height:50px;
+	margin: 5px;
+}
+
 /* Media queries!
 -------------------------------------------------------------------------------*/
 /* Smartphones (portrait and landscape) ----------- */
