@@ -56,7 +56,7 @@ At a given day
 
 Since we deployed the new infrastructure we saw a major improvement on the [Openbook] servers
 
-- feed requests are around 45%-50% of all [Openbook traffic]
+- feed requests are around 45%-50% of all Openbook traffic.
 - [Openbook] servers response time was improved dramatically - from 300 ms to a steady 90 ms.
 - it means [Openbook] has now more resources to allocate for other requests and serves them more quickly.
 
