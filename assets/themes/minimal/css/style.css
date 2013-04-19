@@ -190,6 +190,10 @@ header {
 		padding: 2px 5px;
 		text-decoration: none;
 	}
+	
+	.twitter-button-wrapper{
+		margin:10px 1px 0 0px;
+	}
 
 .minimal-footer {
 	clear: both;
