@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Openbook's Event Bus"
-description: ""
-category: 
-tags: []
+description: "Openbook's event bus allows other apps to be notified at real time"
+category: "Feed"
+tags: [Infrastructure]
 ---
 {% include JB/setup %}
 We have just released a new version of our Feed API with some great features.
