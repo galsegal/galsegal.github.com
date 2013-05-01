@@ -1,8 +1,0 @@
----
-layout: post
-title: "Dependency Injection, Decorators and Simple Injector"
-description: ""
-category: 
-tags: []
----
-{% include JB/setup %}

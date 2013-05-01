@@ -20,6 +20,9 @@ My 2 cents, after watching it:
 The full presentation can be found [here].
 
 
+
+
+
 [Pinterest]: http://pinterest.com/
 [Marty Weiner]: http://pinterest.com/martaaay/
 [Yashwanth Nelapati]:http://www.linkedin.com/in/yashh
