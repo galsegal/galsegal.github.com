@@ -2,11 +2,13 @@
 layout: post
 title: "LogEntries Tips And Tricks"
 description: "Tips and tricks when working with LogEntries"
-category: 
+category: "DevOps"
 tags: [Best Practices, Logging]
 ---
 {% include JB/setup %}
-[LogEntries] is an online logging dashboard. It allows you to collect your logs and view them online, search them, collect events and more. Here are some tips and tricks for better usage: 
+[LogEntries] is an online logging dashboard. It allows you to collect your logs and view them online, search them, collect events and more. DevOps needs a good visibility and alerting in their applications and LogEntries is a good tool to start with.
+
+Here are some tips and tricks for better usage: 
 
 ##Arrange Your Logs
 LogEntries allows you to query your logs via a Regex engine. In order for you to group events and ease the search, find a way to help this engine do its work. I found it is best to write some context on every line of log. For example, if you have several "topics" you want to track, write the topic name in the begging of the log line:
