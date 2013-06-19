@@ -3,7 +3,7 @@ layout: post
 title: "DDD Boilerplate - A C# Project Template For Visual Studio"
 description: "DDD starter project template for Visual Studio"
 category: "Architecture"
-tags: [tools]
+tags: [Tools]
 ---
 {% include JB/setup %}
 
