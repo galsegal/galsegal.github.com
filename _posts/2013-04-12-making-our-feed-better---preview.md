@@ -16,7 +16,7 @@ I must say this is an exciting journey. I was the first server-side programmer o
 We are a small team of 2 (maybe 3 in the near future - we are recruiting!!) programmers: Victor as the software architect, and myself as the team leader and are 100% hands on. This is a great change for me - in the last few years I started to drift away from coding to managing, and I missed it a lot. I must say the last few months were exciting and challenging. I am happy to be back!
 
 ##Brief History - How Did Our Feed Used To Work
-Since we started small, we needed something to serve our feed. We didn't want to invest the time in building it, and we looked for a provider that can help us. My found [Kickapps] (now PerfectSense) and created a background process that publishes out users' trading activities to Kickapps servers. [Openbook] server called the Kickapps server and got the feed and show it to our users.
+Since we started small, we needed something to serve our feed. We didn't want to invest the time in building it, and we looked for a provider that can help us. My found [Kickapps], now PerfectSense and created a background process that publishes out users' trading activities to Kickapps servers. [Openbook] server called the Kickapps server and got the feed and show it to our users.
 
 At the begging all worked well - the feed was shown quickly and nicely and we could move on with developing other parts of the website. Kickapps had its pitfalls, but overall they were a solid provider, quickly responded to failures and the entire process was pretty smooth.
 
@@ -37,7 +37,7 @@ The first change we needed to do is start producing and consuming the feed inter
 ##DevOps
 
 Another key point about the way we work is implementing DevOps methods. For those of you who haven't heard about DevOps, here is a short summary:
->DevOps (a portmanteau of development and operations) is a software development method that stresses communication, collaboration and integration between software developers and information technology (IT) professionals.[1] DevOps is a response to the interdependence of software development and IT operations. It aims to help an organization rapidly produce software products and services.
+>DevOps (a portmanteau of development and operations) is a software development method that stresses communication, collaboration and integration between software developers and information technology (IT) professionals. DevOps is a response to the interdependence of software development and IT operations. It aims to help an organization rapidly produce software products and services.
 
 Practically speaking, we are responsible for every aspect of the product we ship. We design it, develop it, do our own QA, implement automatic deployment processes and have a full control over the entire process of dev-QA-deploy-measure. This is a methodology we started to embrace at [eToro] in the past few weeks and it has a huge effect on the way we develop things. As developers and control freaks we love DevOps. We have more freedom and responsibility and it keeps us very close to our product at all its phases.
 
