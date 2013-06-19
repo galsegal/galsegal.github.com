@@ -16,7 +16,7 @@ I must say this is an exciting journey. I was the first server-side programmer o
 We are a small team of 2 (maybe 3 in the near future - we are recruiting!!) programmers: Victor as the software architect, and myself as the team leader and are 100% hands on. This is a great change for me - in the last few years I started to drift away from coding to managing, and I missed it a lot. I must say the last few months were exciting and challenging. I am happy to be back!
 
 ##Brief History - How Did Our Feed Used To Work
-Since we started small, we needed something to serve our feed. We didn't want to invest the time in building it, and we looked for a provider that can help us. My found [Kickapps], now PerfectSense and created a background process that publishes out users' trading activities to Kickapps servers. [Openbook] server called the Kickapps server and got the feed and show it to our users.
+Since we started small, we needed something to serve our feed. We didn't want to invest the time in building it, and we looked for a provider that can help us. My found [Kickapps], now PerfectSense,  and created a background process that publishes out users' trading activities to Kickapps servers. [Openbook] server called the Kickapps server and got the feed and show it to our users.
 
 At the begging all worked well - the feed was shown quickly and nicely and we could move on with developing other parts of the website. Kickapps had its pitfalls, but overall they were a solid provider, quickly responded to failures and the entire process was pretty smooth.
 
