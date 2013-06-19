@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gal Segal's Personal Blog
+title: Gal Segal (deprogrammer)
 tagline: 
 ---
 {% include JB/setup %}
