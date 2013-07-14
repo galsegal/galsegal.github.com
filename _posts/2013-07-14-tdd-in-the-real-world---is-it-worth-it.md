@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TDD In The Real World   Is It Worth It?"
+title: "TDD In The Real World - Is It Worth It?"
 description: "TDD is a hard standard to adopt by developers and organizations. Why?"
 category: "architecture"
 tags: [Best Practices]
