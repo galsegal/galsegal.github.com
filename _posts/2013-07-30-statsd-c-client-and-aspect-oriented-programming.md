@@ -17,7 +17,7 @@ When I started to use Statsd I felt this approach is not enough for me. I needed
 
 AOP allows the developer to enforce cross cutting concerns, such as logging, monitoring, profiling, authenticating etc in a way that will decorate the code. Attributes are classic AOP implementation in C#, but they also come with a burden - you need to use reflection and check if the method has attributes, and than do something with them.
 
-To the rescue comes [PostSharp] - a leading library in AOP for C#. PostSharp takes the concept of attributes and use it differently. When you use PostSharp attribute, during the build, the PostSharp engine looks for these attributes and insert them where needed in the IL, so basically you don't need reflection no more - the code form the attribute is injected to the right places and executes in an orderly fashion. This means no penalties during runtime and cleaner code - blessing from heaven!
+To the rescue comes [PostSharp] - a leading library in AOP for C#. PostSharp takes the concept of attributes and use it differently. When you use a PostSharp attribute, during the build, the PostSharp engine looks for these attributes and insert them where needed in the IL, so basically you don't need reflection no more - the code from the attribute is injected to the right places and executes in an orderly fashion. This means no penalties during runtime and cleaner code - blessing from heaven!
 
 Few more words about PostSharp: They offer a free edition (called Express) which is good for commercial use.
 If you want to use it:
