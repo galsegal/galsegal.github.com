@@ -3,7 +3,7 @@ layout: post
 title: ".Net Build Script For Continuous Integration"
 description: "extend msbuild for CI pipeline"
 category: "DevOps"
-tags: [CI, tools]
+tags: [CI, Tools]
 ---
 {% include JB/setup %}
 
