@@ -27,5 +27,5 @@ The presentation about our CI process was done by the master mind Alon Becker [@
 <iframe src="http://prezi.com/embed/kinvydtyaj4p/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;features=undefined&amp;disabled_features=undefined" width="550" height="400" frameBorder="0"></iframe>
 
 
-[Github page]: https://github.com/galsegal
+[Github page]: https://github.com/galsegal/.NET-CI-Build-Script
 [@alonbecker]: https://twitter.com/alonbecker
