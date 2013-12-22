@@ -1,28 +1,32 @@
-class YouTube < Liquid::Tag
-  Syntax = /^\s*([^\s]+)(\s+(\d+)\s+(\d+)\s*)?/
+module Jekyll
+  class YouTubeTag < Liquid::Tag
+    @videoid = nil
+    @width = ''
+    @height = ''
  
-  def initialize(tagName, markup, tokens)
-    super
- 
-    if markup =~ Syntax then
-      @id = $1
- 
-      if $2.nil? then
-          @width = 560
-          @height = 420
-      else
-          @width = $2.to_i
-          @height = $3.to_i
+    def initialize(tag_name, markup, tokens)
+      if markup =~ /(?:(?:https?:\/\/)?(?:www.youtube.com\/(?:embed\/|watch\?v=)|youtu.be\/)?(\S+)(?:\?rel=\d)?)(?:\s+(\d+)\s(\d+))?(?:\s+"(.*?)")?/i
+        @videoid = $1
+        @width = $2 || "480"
+        @height = $3 || "360"
+        @caption = $4 ? "<figcaption>#{$4}</figcaption>" : ""
       end
-    else
-      raise "No YouTube ID provided in the \"youtube\" tag"
+      super
+    end
+ 
+    def render(context)
+      ouptut = super
+      if @videoid
+        # Thanks to Andrew Clark for the inline CSS calculation idea <http://contentioninvain.com/2013/02/13/video-embeds-for-responsive-designs/>
+        intrinsic = ((@height.to_f / @width.to_f) * 100)
+        padding_bottom = ("%.2f" % intrinsic).to_s  + "%"
+        video = %Q{<a class="youtube" href="http://www.youtube.com/watch?v=#{@videoid}" data-videoid="#{@videoid}" data-width="#{@width}" data-height="#{@height}">YouTube Video</a>}
+        %Q{<figure class="bt-video-container" style="padding-bottom:#{padding_bottom}">#{video}#{@caption}</figure>}
+      else
+        "Error processing input, expected syntax: {% youtube video_id [width height] %}"
+      end
     end
   end
- 
-  def render(context)
-    # "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://www.youtube.com/embed/#{@id}\" frameborder=\"0\"allowfullscreen></iframe>"
-    "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://www.youtube.com/embed/#{@id}?color=white&theme=light\"></iframe>"
-  end
- 
-  Liquid::Template.register_tag "youtube", self
 end
+ 
+Liquid::Template.register_tag('youtube', Jekyll::YouTubeTag)
