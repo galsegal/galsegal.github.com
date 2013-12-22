@@ -15,7 +15,7 @@ Immediately I twitted it, feeling happy and pleased with the latest finding. It 
 
 A few hours later I had an uncomfortable feeling.. The words I chose reminded me of something else, quite the opposite. Suddenly I remembered where I heard these words before:
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen="allowfullscreen">  </iframe>
+<iframe width="960" height="720" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen="allowfullscreen">  </iframe>
  
 Fuck, this is not what I meant.. I wanted people to feel appreciated, involved, have a place to grow themselves, contribute and be contributed by the company. 
 
