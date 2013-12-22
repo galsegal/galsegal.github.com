@@ -15,7 +15,7 @@ Immediately I twitted it, feeling happy and pleased with the latest finding. It 
 
 A few hours later I had an uncomfortable feeling.. The words I chose reminded me of something else, quite the opposite. Suddenly I remembered where I heard these words before:
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/laoq1eeIUxQ" frameborder="0" allowfullscreen></iframe>
+
  
 Fuck, this is not what I meant.. I wanted people to feel appreciated, involved, have a place to grow themselves, contribute and be contributed by the company. 
 
